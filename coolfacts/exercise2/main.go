@@ -56,7 +56,7 @@ func main() {
 	})
 
 	log.Println("starting server")
-	err := http.ListenAndServe(":9002", nil)
+	err := http.ListenAndServe(":9003", nil)
 	if err != nil {
 		log.Fatal(err)
 	}
