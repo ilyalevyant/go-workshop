@@ -6,7 +6,6 @@ import (
 	"html/template"
 	"io/ioutil"
 	"net/http"
- 	"github.com/FTBpro/go-workshop/coolfacts/entrypoint/fact"
 )
 
 func main() {
